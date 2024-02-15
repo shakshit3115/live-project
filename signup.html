@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+   
+ <body class="">
+    <nav class="w-full h-14  flex justify-between px-4 items-center md:px-4 shadow-xl ">
+        <img class="w-20 h-[50px] object-contain rounded-lg" src="img.jpg">
+        <ul class="md:flex hidden font-semibold ">
+            <li class="mx-[10px] cursor-pointer px-5 hover:bg-indigo-700 hover:scale-125 hover:text-white transition-transform .2s rounded-xl mr-[200px]"><a href="home.html">Home</a></li>
+            <li class="mx-[10px] cursor-pointer px-5 hover:bg-indigo-700 hover:scale-125 hover:text-white transition-transform .2s rounded-xl"><a href="About.html">About us</a></li>
+            <li class="mx-[10px] cursor-pointer px-5 hover:bg-indigo-700 hover:scale-125 hover:text-white transition-transform 0.2s rounded-xl ml-[150px]"><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hidden md:block px-2 py-2 bg-indigo-700 text-white rounded-xl font-bold cursor-pointer hover:scale-110 transition-transform 0.3s hover:text-white"><a href="login.html">Login</a>
+        </div>
+        <div class="md:hidden">
+            <a class="text-4xl" href="#">&#8801;</a>
+        </div>
+    </nav>
+   
+    <div class="bg-white p-8 rounded-xl shadow-md w-full max-w-md ml-[480px] mt-[50px] mr[95px] border border-black">
+        <h2 class="text-2xl font-semibold mb-4">Sign Up</h2>
+        <form>
+            <div class="mb-4">
+                <label for="name" class="block text-gray-700 font-semibold mb-2">Name</label>
+                <input type="text" id="name" name="name" class="w-full px-3 py-2 border border-black rounded focus:outline-none focus:border-indigo-500" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700 font-semibold mb-2">Email Address</label>
+                <input type="email" id="email" name="email" class="w-full px-3 py-2 border border-black rounded focus:outline-none focus:border-indigo-500" placeholder="Enter your email address" required>
+            </div>
+            <div class="mb-4">
+                <label for="password" class="block text-gray-700 font-semibold mb-2">Password</label>
+                <input type="password" id="password" name="password" class="w-full px-3 py-2 border border-black rounded focus:outline-none focus:border-indigo-500" placeholder="Enter your password" required>
+            </div>
+            <div class="mb-6">
+                <button type="submit" class="w-full bg-indigo-500 text-white font-semibold py-2 px-4 rounded hover:bg-indigo-600 focus:outline-none focus:bg-indigo-600">Sign Up</button>
+            </div>
+            <p class="text-gray-600 text-sm text-center">Already have an account? <a href="login.html" class="text-indigo-500 hover:text-indigo-600">Log In</a></p>
+        </form>
+    </div>
+
+
+    <footer class="w-full bg-indigo-500 px-8 py-12 mt-8 text-white flex flex-col md:flex-row flex-wrap justify-between md:px-16">
+        <div class="mb-8 md:mb-0">
+            <p class="font-bold">Get in touch</p>
+            <p class="my-4">Email us: Support@smartcity.com</p>
+        </div>
+    
+        <div class="mb-8 md:mb-0">
+            <h2 class="font-bold text-xl mb-4">Smart City</h2>
+            <div class="w-32 h-1 bg-yellow-400 rounded-2xl mb-4"></div>
+            <div class="text-sm">
+                <p class="mb-2">About us</p>
+                <p class="mb-2">FAQs</p>
+                <p class="mb-2">Privacy Policy</p>
+            </div>
+        </div>
+    
+        <div class="mb-8 md:mb-0">
+            <h2 class="font-bold text-xl mb-4">Menu</h2>
+            <div class="w-32 h-1 bg-yellow-400 rounded-2xl mb-4"></div>
+            <div class="text-sm">
+                <p class="mb-2">About us</p>
+                <p class="mb-2">Services</p>
+                <p class="mb-2">Contact</p>
+            </div>
+        </div>
+    
+        <div>
+            <h2 class="font-bold text-xl mb-4">Smart City</h2>
+            <div class="w-32 h-1 bg-yellow-400 rounded-2xl mb-4"></div>
+            <div class="text-sm">
+                <p class="mb-2">About us</p>
+                <p class="mb-2">FAQs</p>
+                <p class="mb-2">Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
+    
+
+</body>
+</html>

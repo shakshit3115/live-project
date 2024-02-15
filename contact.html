@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- nav- bar goes here -->
+    <nav class="w-full h-14  flex justify-between px-4 items-center md:px-4 shadow-xl ">
+        <img class="w-20 h-[50px] object-contain rounded-lg" src="img.jpg">
+        <ul class="md:flex hidden font-semibold ">
+            <li class="mx-[10px] cursor-pointer px-5 hover:bg-indigo-700 hover:scale-125 hover:text-white transition-transform .2s rounded-xl mr-[200px]"><a href="home.html">Home</a></li>
+            <li class="mx-[10px] cursor-pointer px-5 hover:bg-indigo-700 hover:scale-125 hover:text-white transition-transform .2s rounded-xl"><a href="About.html">About us</a></li>
+            <li class="mx-[10px] cursor-pointer px-5 hover:bg-indigo-700 hover:scale-125 hover:text-white transition-transform 0.2s rounded-xl ml-[150px]"><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hidden md:block px-2 py-2 bg-indigo-700 text-white rounded-xl font-bold cursor-pointer hover:scale-110 transition-transform 0.3s hover:text-white"><a href="login.html">login/signup</a>
+        </div>
+        <div class="md:hidden">
+            <a class="text-4xl" href="#">&#8801;</a>
+        </div>
+    </nav>
+    <!-- navbar ends here -->
+    <div class="relative">
+        <img class="w-full h-[350px] object-cover" src="aazad.jpeg">
+        <div class="bg-indigo-500 w-[350px] h-[500px] -mt-[70px] absolute z-index-1 ml-[768px]">
+            <p class="text-xl text-white font-bold ml-[30px] mt-[30px]">Contact Information</p>
+            <img class="ml-[130px] mt-[180px] mb[40px] flex justify-center"  src="icons8-email-64.png">
+            <div class="flex items-center">
+                <img class="mr-[54px] mt-[138px] " src="icons8-linkedin-64.png" alt="">
+                <img class="mr-[54px] mt-[138px]" src="icons8-youtube-24.png" alt="">
+                <img class="mr-[140px] mt-[138px]" src="icons8-twitter-26.png" alt="">
+            </div>
+            
+
+        </div>
+        <div class="bg-white  overflow-hidden shadow-md absolute top-0 left-0 z-index-2 ml-[180px] w-[600px] h-[500px] mt-[280px]">
+            
+            <div>
+                <!-- Header -->
+                <div class=" text-black py-4 px-6">
+                    <h1 class="text-2xl font-bold ">Send a Message</h1>
+                </div>
+                <!-- Body -->
+                <div class="p-6">
+
+                    <!-- Message Form -->
+                    <form>
+                        <!-- Name -->
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name"
+                                class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-indigo-500">
+                        </div>
+
+                        <!-- Email -->
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email"
+                                class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-indigo-500">
+                        </div>
+
+                        <!-- Phone Number -->
+                        <div class="mb-4">
+                            <label for="phone" class="block text-gray-700 text-sm font-bold mb-2">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number"
+                                class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-indigo-500">
+                        </div>
+
+                        <!-- Message -->
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message:</label>
+                            <textarea id="message" name="message" placeholder="Type your message here"
+                                class="w-full px-4 py-2 border rounded-md resize-none focus:outline-none focus:border-indigo-500"></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit"
+                            class="w-full bg-indigo-500 text-white py-2 px-4 rounded-md hover:bg-indigo-600 focus:outline-none focus:bg-indigo-600">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card for Sending Messages -->
+
+
+    <!-- Card ends here -->
+
+    <!--footer yaha se hai -->
+
+    <footer class=" mt-[500px] w-full bg-indigo-500 px-8 py-12 text-white flex flex-col md:flex-row flex-wrap justify-between md:px-16">
+        <div class="mb-8 md:mb-0">
+            <p class="font-bold">Get in touch</p>
+            <p class="my-4">Email us: Support@smartcity.com</p>
+        </div>
+    
+        <div class="mb-8 md:mb-0">
+            <h2 class="font-bold text-xl mb-4">Smart City</h2>
+            <div class="w-32 h-1 bg-yellow-400 rounded-2xl mb-4"></div>
+            <div class="text-sm">
+                <p class="mb-2">About us</p>
+                <p class="mb-2">FAQs</p>
+                <p class="mb-2">Privacy Policy</p>
+            </div>
+        </div>
+    
+        <div class="mb-8 md:mb-0">
+            <h2 class="font-bold text-xl mb-4">Menu</h2>
+            <div class="w-32 h-1 bg-yellow-400 rounded-2xl mb-4"></div>
+            <div class="text-sm">
+                <p class="mb-2">About us</p>
+                <p class="mb-2">Services</p>
+                <p class="mb-2">Contact</p>
+            </div>
+        </div>
+    
+        <div>
+            <h2 class="font-bold text-xl mb-4">Smart City</h2>
+            <div class="w-32 h-1 bg-yellow-400 rounded-2xl mb-4"></div>
+            <div class="text-sm">
+                <p class="mb-2">About us</p>
+                <p class="mb-2">FAQs</p>
+                <p class="mb-2">Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
